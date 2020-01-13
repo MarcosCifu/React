@@ -1,0 +1,29 @@
+# Others
+node_modules/**/*
+.expo/*
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+web-report/
+
+# node
+/node_modules
+
+# expo
+/.expo
+/.expo-shared
+
+# package-lock.json
+package-lock.json
+
+# Mac OS
+.DS_Store
+**/.DS_Store
+
+# Yarn
+yarn.lock
