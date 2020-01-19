@@ -1,26 +1,10 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import AppContainer from './routes';
 
-export default function App() {
+const App = () => {
   return (
-    <View style={styles.container}>
-      <Text
-        style={{
-          fontSize: 48
-        }}
-      >
-        PuliRed
-      </Text>
-      <Text>dev</Text>
-    </View>
+    <AppContainer />
   );
-}
+};
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: 'orange',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+export default App;
